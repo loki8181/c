@@ -17,14 +17,15 @@ Relational operator
 10%
 x + (x* 10/100)
 #include<stdio.h>
-int main()
-{
-  int amount=100;
-  int per= 10;
-  int interest =amount + (amount * per /100);
-  printf ("%d", interest*time);
-  return 0;
-  }
+
+int main() {
+    int amount = 100;       
+    int per = 10;           
+    int time = 1;
+    int interest = amount + (amount * per  / 100); 
+    printf("%d",  interest * time);
+    return 0;
+}
 
 5>2<4>5
   1<4<5 =1>5 =0
@@ -58,18 +59,33 @@ order of precedence
 
 
 #include<stdio.h>
-int main()
-{
-int a;
-scanf("%d, &a);
-if(a%2) {
-printf("given number is odd ");
-}else {
-printf("given number is even");
-}
-return 0;
-}
 
+int main() {
+    int a;
+    scanf("%d", &a);  
+    if (a % 2) {
+        printf("Given number is odd\n");
+    } else {
+        printf("Given number is even\n");
+    }
+
+    return 0;
+}
+ or 
+#include <stdio.h>
+
+int main() {
+    int year;
+    printf("Enter a year: ");
+    scanf("%d", &year);
+    if ((year % 4 == 0 && year % 100 != 0) || (year % 400 == 0)) {
+        printf("%d is a leap year.\n", year);
+    } else {
+        printf("%d is not a leap year.\n", year);
+    }
+
+    return 0;
+}
 
 
 
