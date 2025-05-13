@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main() {
+    int a = 30, b = 20, c = 10;  // Corrected the initialization of 'a'
+
+    // Compare the values of a, b, and c to determine the greatest
+    if (a > b && a > c) {  // a is greater than both b and c
+        printf("A is greater\n");
+    } else if (b > a && b > c) {  // b is greater than both a and c
+        printf("B is greater\n");
+    } else {  // Otherwise, c must be the greatest
+        printf("C is greater\n");
+    }
+
+    return 0;
+}
