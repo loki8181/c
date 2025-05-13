@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+int main() {
+    int avg;
+    printf("Enter average marks: ");
+    scanf("%d", &avg);
+    if (avg > 90 && avg <= 100) {
+        printf("A Grade\n");
+    } else if (avg > 80 && avg <= 90) {
+        printf("B Grade\n");
+    } else if (avg > 70 && avg <= 80) {
+        printf("C Grade\n");
+    } else if (avg > 60 && avg <= 70) {
+        printf("D Grade\n");
+    } else if (avg > 50 && avg <= 60) {
+        printf("E Grade\n");
+    } else {
+        printf("Fail\n");
+    }
+
+    return 0;
+}
