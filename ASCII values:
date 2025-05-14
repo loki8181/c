@@ -13,3 +13,20 @@ printf("%d",csa);
 return 10 0 ;
 }
 
+#include<stdio.h>
+int main()
+{
+ int rs,five,two,one,total;
+ scanf("%d",&rs);  //13
+ five=rs/5; //2
+ two=rs%5/2;  //1
+ one=rs%5%2/1;  //1
+ total=five+two+one;
+ printf("%d %d %d %d",total,five,two,one);
+ return 0;
+ }
+ a=1
+a++
+--a
+
+ 
