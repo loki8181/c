@@ -1,0 +1,15 @@
+ASCII values:
+ A-65
+a-97
+0-48, 1 -49...9-57
+
+
+#include<stdio.h>
+int main()
+{
+csa;
+scanf("%c,csa);
+printf("%d",csa);
+return 10 0 ;
+}
+
