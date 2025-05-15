@@ -369,7 +369,7 @@ int main()
     return 0;
 }
 
-sum of integer
+reversed number
 
 int main() {
 
